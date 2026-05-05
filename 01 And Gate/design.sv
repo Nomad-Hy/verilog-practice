@@ -1,0 +1,12 @@
+//AND GATE
+
+module AndGate(a,b,out);
+  input a,b;
+  output out;
+  
+  
+  wire out;
+  
+  assign out=a&b;
+  
+endmodule
