@@ -17,7 +17,7 @@
 `assign y=a|b;`
 
 ## 📂 Files
-- `design.sv` — AND 게이트 모듈
+- `design.sv` — XOR 게이트 모듈
 - `testbench.sv` — 4가지 케이스 테스트벤치
 
 ## ✅ Simulation Result
