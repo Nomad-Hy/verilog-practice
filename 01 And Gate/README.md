@@ -21,9 +21,22 @@
 - `design.sv` — AND 게이트 모듈
 - `testbench.sv` — 4가지 케이스 테스트벤치
 
+
 ## ✅ Simulation Result
 
+| # | a | b | Expected | Actual | Result |
+|:-:|:-:|:-:|:--------:|:------:|:------:|
+| 1 | 0 | 0 |    0     |   0    |   ✅   |
+| 2 | 0 | 1 |    0     |   0    |   ✅   |
+| 3 | 1 | 0 |    0     |   0    |   ✅   |
+| 4 | 1 | 1 |    1     |   1    |   ✅   |
+
+**4/4 cases passed ✅**
+
+### Raw Output
+```
 Time=0  a=0 b=0 out=0
 Time=10 a=0 b=1 out=0
 Time=20 a=1 b=0 out=0
 Time=30 a=1 b=1 out=1
+```
