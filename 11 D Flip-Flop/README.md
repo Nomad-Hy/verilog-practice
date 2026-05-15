@@ -39,7 +39,11 @@ module dflipflop(
     end
 endmodule
 ```
+## 📂 Files
+- `design.sv` — D FlipFlop 모듈
+- `testbench.sv` — 검증
 
+- 
 ## 🔢 Timing Diagram
 
 ```
